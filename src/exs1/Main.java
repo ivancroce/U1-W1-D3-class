@@ -1,6 +1,18 @@
 package exs1;
 
 public class Main {
+    /*
+      static: The 'static' keyword means the member (method or attribute)
+      belongs to the CLASS, not to any individual OBJECT (instance).
+
+      For a static METHOD:
+      - It can be called using the class name: ClassName.methodName().
+      - It cannot use non-static members of the class (like 'this' or instance attributes),
+        because it doesn't operate on a specific object.
+
+      For a static ATTRIBUTE:
+      - There is only ONE copy of this variable shared among ALL objects of the class.
+     */
     public static void main(String[] args) {
         // create 2 Rectangles obj
         Rectangle r1 = new Rectangle(4.0, 6.0);
